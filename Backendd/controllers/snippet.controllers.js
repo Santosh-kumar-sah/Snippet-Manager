@@ -4,7 +4,7 @@ import {asyncHandler} from "../utils/asyncHandler.js";
 import { AuditLog } from "../models/auditLog.models.js";
 import { Folder } from "../models/folder.models.js";
 
-import {ApiError} from "../utils/ApiError.js";
+import {ApiError} from "../utils/apiError.js";
 
 
  const createSnippet = async (req, res) => {
