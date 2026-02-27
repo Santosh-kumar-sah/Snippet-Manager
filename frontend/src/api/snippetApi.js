@@ -1,7 +1,7 @@
 import api from "./axios";
 
 export const getMySnippets = async (params = {}) => {
-  const { data } = await api.get("/snippets", { params });
+  const { data } = await api.get("/snippets/public", { params });
   return data;
 };
 export const createSnippet = async (snippetData) => {
