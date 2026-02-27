@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { registerUser,loginUser,getCurrentUser } from "../controllers/auth.controllers.js";
 import { protect,authorize } from "../middlewares/auth.middlewares.js";
-import { verifyOtp } from "../controllers/auth.controllers.js";
+// import { verifyOtp } from "../controllers/auth.controllers.js";
 const router = Router();
 
 
@@ -30,7 +30,7 @@ const router = Router();
  */
 router.post("/register", registerUser);
 
-router.post("/verify-otp", verifyOtp);
+// router.post("/verify-otp", verifyOtp);
 
 /**
  * @swagger
