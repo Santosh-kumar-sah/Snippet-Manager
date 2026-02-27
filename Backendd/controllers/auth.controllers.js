@@ -178,4 +178,4 @@ const getCurrentUser = (req, res) => {
 
 
 
-export { registerUser, loginUser, getCurrentUser, verifyOtp };
+export { registerUser, loginUser, getCurrentUser };
