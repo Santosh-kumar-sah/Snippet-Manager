@@ -9,7 +9,7 @@ import { SnippetProvider } from "./context/snippetContext";
 import Home from "./pages/Home";
 import Login from "./pages/login";
 import Register from "./pages/register";
-import VerifyOTP from "./pages/verifyOtp";   
+// import VerifyOTP from "./pages/verifyOtp";   
 import Dashboard from "./pages/Dashboard";
 import Folder from "./pages/folder";
 import About from "./pages/About";
@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/verify-otp" element={<VerifyOTP />} /> {/* ✅ NEW */}
+        /* <Route path="/verify-otp" element={<VerifyOTP />} /> ✅ NEW */
         <Route path="/about" element={<About />} />
 
         {/* Protected */}
