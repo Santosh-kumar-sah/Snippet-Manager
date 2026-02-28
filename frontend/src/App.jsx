@@ -23,7 +23,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        /* <Route path="/verify-otp" element={<VerifyOTP />} /> ✅ NEW */
+       
         <Route path="/about" element={<About />} />
 
         {/* Protected */}
