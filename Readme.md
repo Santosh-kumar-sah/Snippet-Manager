@@ -6,6 +6,14 @@ The project is structured as a **monorepo** with a Node.js/Express backend API a
 
 ---
 
+## 🚀 Live Application
+
+The project is fully deployed and production-ready.
+
+- 🌐 Frontend (Vercel): https://snippet-manager-zeta.vercel.app
+- 🔗 Backend API (Render): https://snippet-manager-ipik.onrender.com
+- 🗄 Database: MongoDB Atlas
+
 ## ✨ Features
 
 ### 👤 Authentication & Authorization
