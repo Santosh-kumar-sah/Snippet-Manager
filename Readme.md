@@ -203,7 +203,6 @@ Authorization: Bearer <token>
 * Refresh token support
 * Pagination & search for snippets
 * Folder‑wise snippet listing API
-* Frontend UI integration
 * Deployment (Docker / Cloud)
 
 ---
@@ -214,11 +213,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 🙌 Author
 
