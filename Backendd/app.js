@@ -11,6 +11,13 @@ app.use(cors({
 // app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    status: "success",
+    message: "API is running"
+  });
+});
+
 import contactRoutes from "./routes/contact.routes.js";
 
 app.use("/api/v1/contact", contactRoutes);
