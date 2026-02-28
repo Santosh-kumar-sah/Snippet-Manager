@@ -2,6 +2,8 @@ import { User } from "../models/user.models.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { ApiError } from "../utils/apiError.js";
 import { ApiResponse } from "../utils/apiResponse.js";
+import bcrypt from "bcrypt";
+import jwt from "jsonwebtoken"; 
 // import { generateOTP } from "../utils/otp.js";
 // import { sendEmail } from "../utils/mailer.js";
 
@@ -112,6 +114,7 @@ const registerUser = asyncHandler(async (req, res) => {
     process.env.JWT_SECRET,
     { expiresIn: "7d" }
   );
+  
 
   // 5️⃣ Send response
   res.status(201).json(
